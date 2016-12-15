@@ -1,4 +1,4 @@
-package SP;
+
 
 public class ArrowType {
 
