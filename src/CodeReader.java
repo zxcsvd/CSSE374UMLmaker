@@ -1,4 +1,4 @@
-
+import org.objectweb.asm.tree.ClassNode;
 import java.util.List;
 
 public class CodeReader {
@@ -16,6 +16,10 @@ public class CodeReader {
 	}
 	
 	public List<ClassNode> getFields(ClassNode node){
+		return null;
+	}
+	
+	public List<ClassNode> getMethods(ClassNode node){
 		return null;
 	}
 }
